@@ -1,19 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<<!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>End-of-Year Bonus Confirmation</title>
-    <!-- Google Analytics Tracking Script -->
-    <!-- Replace 'YOUR-GOOGLE-ANALYTICS-ID' with your actual Google Analytics ID -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GOOGLE-ANALYTICS-ID"></script>
+    <title>Confirmation du Bonus de Fin d'Année</title>
+    <!-- Script de Suivi Google Analytics -->
+    <!-- Remplacez 'VOTRE-ID-GOOGLE-ANALYTICS' par votre véritable ID Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=VOTRE-ID-GOOGLE-ANALYTICS"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'YOUR-GOOGLE-ANALYTICS-ID');
+      gtag('config', 'VOTRE-ID-GOOGLE-ANALYTICS');
     </script>
     <style>
         body {
@@ -48,6 +48,14 @@
         }
     </style>
 </head>
+<body>
+    <div class="container">
+        <h1>Confirmez Votre Bonus de Fin d'Année</h1>
+        <p>Félicitations ! Vous êtes éligible pour un bonus de performance de fin d'année. Pour réclamer votre bonus, veuillez cliquer sur le bouton ci-dessous et remplir vos informations avant la date limite.</p>
+        <a href="#" class="btn">Réclamer Votre Bonus</a>
+    </div>
+</body>
+</html>
 <body>
     <div class="container">
         <h1>Confirm Your End-of-Year Bonus</h1>
