@@ -41,7 +41,7 @@
     <div class="container">
         <h1>Confirmez Votre Bonus de Fin d'Année</h1>
         <p>Vous êtes éligible pour un bonus de performance de fin d'année. Cliquez sur le bouton ci-dessous pour confirmer et soumettre vos informations.</p>
-        <a href="YOUR_GOOGLE_FORM_LINK" class="btn">Réclamer Votre Bonus</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7QQ_3lOP_JElFDcs-7Ct8kEzbIAWhlgiDeBnxQwEwQOVsIQ/viewform?usp=sf_link" class="btn">Réclamer Votre Bonus</a>
     </div>
 </body>
 </html>
