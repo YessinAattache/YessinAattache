@@ -7,11 +7,12 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: ##f4f4f4;
+            background-color: #e0f7fa; /* Soft background color */
             margin: 0;
             padding: 0;
         }
         .container {
+            position: relative; /* Position relative to position the dinosaur */
             max-width: 600px;
             margin: 100px auto;
             padding: 20px;
@@ -34,14 +35,38 @@
             color: #ffffff;
             text-decoration: none;
             border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+        /* Dinosaur styling */
+        .dinosaur {
+            position: absolute; /* Absolute positioning to animate over the container */
+            width: 50px; /* Adjust the size of the dinosaur */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center the dinosaur */
+            bottom: 100px; /* Position above the text box */
+            animation: jump 2s infinite; /* Jump animation */
+        }
+        /* Jump animation */
+        @keyframes jump {
+            0%, 100% {
+                bottom: 100px; /* Start and end position */
+            }
+            50% {
+                bottom: 160px; /* Highest point of the jump */
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Updated Dinosaur Image Reference -->
+        <img src="https://github.com/YessinAattache/YessinAattache/blob/main/dinosaur.jpg?raw=true" alt="Dinosaur" class="dinosaur">
         <h1>Confirmez Votre Bonus de Fin d'Année</h1>
         <p>Vous êtes éligible pour un bonus de performance de fin d'année. Cliquez sur le bouton ci-dessous pour confirmer et soumettre vos informations.</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7QQ_3lOP_JElFDcs-7Ct8kEzbIAWhlgiDeBnxQwEwQOVsIQ/viewform?usp=sf_link" class="btn">Réclamer Votre Bonus</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7QQ_3lOP_JElFDcs-7Ct8kEzbIAWhlgiDeBnxQwEwQOVsIQ/viewform?usp=sf_link" class="btn" aria-label="Réclamer votre bonus de fin d'année" rel="noopener noreferrer">Réclamer Votre Bonus</a>
     </div>
 </body>
 </html>
