@@ -47,7 +47,7 @@
             width: 50px; /* Adjust the size of the dinosaur */
             left: 50%; /* Center horizontally */
             transform: translateX(-50%); /* Center the dinosaur */
-            bottom: 140px; /* Position the dinosaur above the heading text */
+            bottom: 180px; /* Position the dinosaur above the heading text */
             animation: jump 2s infinite; /* Jump animation */
         }
         /* Jump animation */
