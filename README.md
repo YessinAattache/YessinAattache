@@ -20,6 +20,7 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
+            z-index: 1; /* Ensure container stays below the dinosaur */
         }
         h1 {
             color: #333;
@@ -47,16 +48,17 @@
             width: 50px; /* Adjust the size of the dinosaur */
             left: 50%; /* Center horizontally */
             transform: translateX(-50%); /* Center the dinosaur */
-            bottom: 180px; /* Position the dinosaur above the heading text */
+            bottom: 260px; /* Position the dinosaur above the heading text */
+            z-index: 2; /* Ensure dinosaur stays above the container */
             animation: jump 2s infinite; /* Jump animation */
         }
         /* Jump animation */
         @keyframes jump {
             0%, 100% {
-                bottom: 140px; /* Start and end position, just above the text */
+                bottom: 260px; /* Start and end position, just above the text */
             }
             50% {
-                bottom: 200px; /* Highest point of the jump */
+                bottom: 320px; /* Highest point of the jump */
             }
         }
     </style>
