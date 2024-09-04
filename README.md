@@ -23,6 +23,7 @@
         }
         h1 {
             color: #333;
+            margin-top: 60px; /* Add some top margin for space for the dinosaur */
         }
         p {
             color: #555;
@@ -46,23 +47,23 @@
             width: 50px; /* Adjust the size of the dinosaur */
             left: 50%; /* Center horizontally */
             transform: translateX(-50%); /* Center the dinosaur */
-            bottom: 100px; /* Position above the text box */
+            bottom: 140px; /* Position the dinosaur above the heading text */
             animation: jump 2s infinite; /* Jump animation */
         }
         /* Jump animation */
         @keyframes jump {
             0%, 100% {
-                bottom: 100px; /* Start and end position */
+                bottom: 140px; /* Start and end position, just above the text */
             }
             50% {
-                bottom: 160px; /* Highest point of the jump */
+                bottom: 200px; /* Highest point of the jump */
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Updated Dinosaur Image Reference -->
+        <!-- Dinosaur Image placed above the heading -->
         <img src="https://github.com/YessinAattache/YessinAattache/blob/main/dinosaur.jpg?raw=true" alt="Dinosaur" class="dinosaur">
         <h1>Confirmez Votre Bonus de Fin d'Année</h1>
         <p>Vous êtes éligible pour un bonus de performance de fin d'année. Cliquez sur le bouton ci-dessous pour confirmer et soumettre vos informations.</p>
